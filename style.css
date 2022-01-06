@@ -93,13 +93,13 @@ p{
 }
 .girl{
   background-image: url(images/shape-1.png);
-  background-position-x: left;
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 260px;
   margin-left: 5%;
 }
 .girl img{
-    margin-left: 13%;
+    margin-left: 15%;
+    margin-top: -1px;
 }
 .para{
     margin-right: 5%;

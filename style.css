@@ -2,18 +2,24 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-h1{
+.one h1{
     font-size: 50px;
     color: #ed7966;
     border-left: 5px solid;
     border-image: linear-gradient(#f6b73c, #4d9f0c);
     border-image-slice: 1;
-    padding-left: 3%;
+    /* padding-left: 3%;
+    height: 29%; */
+    border-radius: 20%;
+    
+
+    
 }
 p{
     text-align: justify;
 }
-.top-banner{
+.skill{
+   
     display: flex;
     margin-top: 10%;
     background-image: url(images/shape-4.png);
@@ -40,4 +46,71 @@ p{
     border-radius: 5px;
     display: inline-block;
     margin-top: 2%;
+}
+/* mission area started*/
+.mission-area h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.design img{
+    width: 50%;
+}
+.product img{
+    width: 50%;
+}
+.result img{
+    width: 50%;
+}
+.design{
+    background-color: #ccabab;
+    margin-left: 5%;
+    box-shadow: 1px 1px 20px black;
+    padding: 3%;
+}
+.product{
+    background-color: #cc7676;
+    margin-left: 5%;
+    box-shadow: 1px 1px 20px black;
+    padding: 3%;
+}
+
+.result{
+    background-color: rgb(241, 223, 189);
+    margin-left: 5%;
+    box-shadow: 1px 1px 20px black;
+    padding: 3%;
+}
+/* mission area ended*/
+/* skill started */
+.skill-area{
+    background-image: url(images/shape-5.png);
+    background-repeat: no-repeat;
+}
+.form{
+    margin-left: 10%;
+    min-height: 50vh;
+}
+.up{
+    margin-left: 37%;
+}
+.input-box{
+    height: 35px;
+    outline: none;
+   
+}
+.form-up{
+    margin-top: px;
+}
+.footer{
+    height:150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-part p{
+    text-align: center;
 }

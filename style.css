@@ -3,18 +3,22 @@ body{
     margin: 0;
 }
 .one h1{
-    font-size: 50px;
+    font-size: 40px;
     color: #ed7966;
-    border-left: 5px solid;
+    /* border-left: 5px solid;
     border-image: linear-gradient(#f6b73c, #4d9f0c);
-    border-image-slice: 1;
-    /* padding-left: 3%;
-    height: 29%; */
-    border-radius: 20%;
-    
-
-    
+    border-image-slice: 1; */
+   
 }
+.border{
+    border-left: 4px solid #4d9f0c ;
+    height: 80px;
+    position: absolute;
+    left: 9%;
+    margin-left: -4px;
+    top: 150px;
+}
+
 p{
     text-align: justify;
 }
@@ -47,9 +51,12 @@ p{
     display: inline-block;
     margin-top: 2%;
 }
-/* mission area started*/
+.blue{
+    color: rgb(152, 9, 218);
+}
 .mission-area h1{
     text-align: center;
+    color: rgb(11, 11, 119);
 }
 .main{
     display: flex;
@@ -68,49 +75,71 @@ p{
 .design{
     background-color: #ccabab;
     margin-left: 5%;
-    box-shadow: 1px 1px 20px black;
-    padding: 3%;
+    padding: 0 3%;
+    border-radius: 20px;
 }
 .product{
     background-color: #cc7676;
     margin-left: 5%;
-    box-shadow: 1px 1px 20px black;
-    padding: 3%;
+    padding: 0 3%;
+    border-radius: 20px;
 }
 
 .result{
     background-color: rgb(241, 223, 189);
     margin-left: 5%;
-    box-shadow: 1px 1px 20px black;
-    padding: 3%;
+    padding: 0 3%;
+    border-radius: 20px;
 }
-/* mission area ended*/
-/* skill started */
-.skill-area{
-    background-image: url(images/shape-5.png);
-    background-repeat: no-repeat;
+.girl{
+  background-image: url(images/shape-1.png);
+  background-position-x: left;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  margin-left: 5%;
+}
+.girl img{
+    margin-left: 13%;
+}
+.para{
+    margin-right: 5%;
+    margin-top: -1%;
 }
 .form{
-    margin-left: 10%;
+    margin-right: 10%;
     min-height: 50vh;
+    background-color: rgba(5, 149, 168, 0.795);
+    padding: 80px;
 }
 .up{
-    margin-left: 37%;
+ margin-right: 20%;
+ margin-top: 5%;
+}
+.up p{
+   text-align: justify;
 }
 .input-box{
     height: 35px;
     outline: none;
-   
 }
-.form-up{
-    margin-top: px;
-}
+
 .footer{
-    height:150px;
+    height: 30vh;
     background-color: black;
     color: white;
+}
+.footer-part{
     text-align: center;
+   margin-bottom: 20%;
 }
 .footer-part p{
     text-align: center;
+ 
+}
+.footer-part h1{
+    padding-top: 40px;
+
+}
+.red{
+    color: rebeccapurple;
 }
